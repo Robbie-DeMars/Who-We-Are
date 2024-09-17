@@ -34,6 +34,8 @@
   },
   "name":"Prototype-Oregon-Trail-Game",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},},
   ],

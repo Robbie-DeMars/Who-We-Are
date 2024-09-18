@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_bitmgothic",
+  "%Name":"fnt_bitmgothic",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":13,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":17,
   "maintainGms1Font":false,
-  "name":"font_bitmgothic",
+  "name":"fnt_bitmgothic",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

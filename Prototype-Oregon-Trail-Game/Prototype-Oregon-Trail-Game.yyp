@@ -34,9 +34,10 @@
   },
   "name":"Prototype-Oregon-Trail-Game",
   "resources":[
-    {"id":{"name":"font_bitmgothic","path":"fonts/font_bitmgothic/font_bitmgothic.yy",},},
+    {"id":{"name":"fnt_bitmgothic","path":"fonts/fnt_bitmgothic/fnt_bitmgothic.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"obj_textBox","path":"objects/obj_textBox/obj_textBox.yy",},},
+    {"id":{"name":"obj_text_box","path":"objects/obj_text_box/obj_text_box.yy",},},
+    {"id":{"name":"obj_textManager","path":"objects/obj_textManager/obj_textManager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},

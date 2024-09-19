@@ -9,3 +9,5 @@ else if (keyboard_check_pressed(vk_space) && _text_box != noone){
  instance_destroy(_text_box);
  _text_box = noone;
 }
+
+get_event();

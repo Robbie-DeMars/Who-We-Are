@@ -14,4 +14,4 @@ else if (keyboard_check_pressed(vk_space) && _text_box != noone){
  _text_box = noone;
 }
 
-get_event();
+//get_event();

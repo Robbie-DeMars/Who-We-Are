@@ -5,6 +5,6 @@ function scr_trade(_pop_count){
 	
 	//Do for every pop
 	for (trade = 0; trade < _pop_count; trade++) {
-		state.food += round(random_range(2, 12)) - state.aggression;
+		scr_increment_food(round(random_range(2, 12)) - state.aggression);
 	}
 }

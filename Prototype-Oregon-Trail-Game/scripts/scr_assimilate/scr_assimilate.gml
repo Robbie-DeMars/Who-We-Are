@@ -3,7 +3,7 @@
 function scr_assimilate(_pop_count){
 	//Do for every pop
 	for (iassimilate = 0; iassimilate < _pop_count; iassimilate++) {
-		state.aggression--;
-		state.culture--;
+		scr_increment_aggression(-1);
+		scr_increment_culture(-1);
 	}
 }

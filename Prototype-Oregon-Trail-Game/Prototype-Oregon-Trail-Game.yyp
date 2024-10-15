@@ -25,6 +25,7 @@
     {"$GMFolder":"","%Name":"Colonial","folderPath":"folders/Scripts/Dilemmas/Colonial.yy","name":"Colonial","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Normal","folderPath":"folders/Scripts/Dilemmas/Normal.yy","name":"Normal","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Other","folderPath":"folders/Scripts/Dilemmas/Other.yy","name":"Other","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Resources","folderPath":"folders/Scripts/Resources.yy","name":"Resources","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Jobs","folderPath":"folders/Scripts/Jobs.yy","name":"Jobs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Progress","folderPath":"folders/Scripts/Progress.yy","name":"Progress","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Prototype-Oregon-Trail-Game",
   "resources":[
@@ -63,6 +64,11 @@
     {"id":{"name":"scr_create_dilemma","path":"scripts/scr_create_dilemma/scr_create_dilemma.yy",},},
     {"id":{"name":"scr_do_jobs","path":"scripts/scr_do_jobs/scr_do_jobs.yy",},},
     {"id":{"name":"scr_events","path":"scripts/scr_events/scr_events.yy",},},
+    {"id":{"name":"scr_increment_aggression","path":"scripts/scr_increment_aggression/scr_increment_aggression.yy",},},
+    {"id":{"name":"scr_increment_autonomy","path":"scripts/scr_increment_autonomy/scr_increment_autonomy.yy",},},
+    {"id":{"name":"scr_increment_culture","path":"scripts/scr_increment_culture/scr_increment_culture.yy",},},
+    {"id":{"name":"scr_increment_food","path":"scripts/scr_increment_food/scr_increment_food.yy",},},
+    {"id":{"name":"scr_increment_pop","path":"scripts/scr_increment_pop/scr_increment_pop.yy",},},
     {"id":{"name":"scr_move_game_forward","path":"scripts/scr_move_game_forward/scr_move_game_forward.yy",},},
     {"id":{"name":"scr_nurture","path":"scripts/scr_nurture/scr_nurture.yy",},},
     {"id":{"name":"scr_overhunt","path":"scripts/scr_overhunt/scr_overhunt.yy",},},

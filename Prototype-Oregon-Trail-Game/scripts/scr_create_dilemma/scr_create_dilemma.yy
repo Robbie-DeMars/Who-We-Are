@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_create_dilemma",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Dilemmas",
+    "path":"folders/Scripts/Dilemmas.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

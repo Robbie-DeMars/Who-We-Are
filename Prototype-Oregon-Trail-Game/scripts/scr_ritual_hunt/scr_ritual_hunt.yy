@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ritual_hunt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ritual_hunt",
+  "parent":{
+    "name":"Jobs",
+    "path":"folders/Scripts/Jobs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

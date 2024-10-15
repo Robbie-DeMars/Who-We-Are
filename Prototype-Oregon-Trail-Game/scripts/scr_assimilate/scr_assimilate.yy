@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_assimilate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_assimilate",
+  "parent":{
+    "name":"Jobs",
+    "path":"folders/Scripts/Jobs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

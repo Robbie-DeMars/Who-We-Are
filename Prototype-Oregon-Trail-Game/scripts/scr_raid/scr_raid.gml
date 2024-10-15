@@ -10,8 +10,9 @@ function scr_raid(_pop_count){
 		raid_roll = round(random_range(1, 20));
 		if (raid_roll <= 2) {
 			for (raid = array_length(state.pop) - 1; raid >= 0; raid--) {
-				if (state.pop[raid].job == 4) {
-					scr_remove_pop(state.pop[raid])
+				if (state.pop[raid].current_job == 4) {
+					scr_remove_pop(state.pop[raid]);
+					break;
 				}
 			}
 		}

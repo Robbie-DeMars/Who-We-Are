@@ -6,7 +6,6 @@ function scr_nurture(_pop_count, _pops_overhunting){
 	//Deal with animal pop
 	difference = _pop_count - _pops_overhunting - 2;
 	dice_roll = round(random_range(1, 20));
-	show_debug_message(string(dice_roll));
 	if (difference > 0) {
 		if (dice_roll <= difference)
 			state.animal_pop++;

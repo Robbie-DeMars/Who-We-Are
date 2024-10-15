@@ -6,6 +6,7 @@ responses = [];
 effects = [];
 repeatable = false;
 
+destroy = false;
 text_box = noone;
 options = [];
 active = false;

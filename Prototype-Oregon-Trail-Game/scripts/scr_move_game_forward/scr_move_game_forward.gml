@@ -3,15 +3,19 @@
 function move_game_forward(){
 	game_manager = instance_nearest(0, 0, obj_game_manager);
 	dilemma_manager = instance_nearest(0, 0, obj_dilemma_manager);
-	
+	var current_dilemma = 0;
 	
 	//Check to see if game is ok to move to next state
 	if (game_manager.game_state == 0 ) {
 		game_manager.game_state = 1;
+		//Since transitioning from job pick phase, do the jobs.
 		scr_do_jobs();
 	}
 	else if (game_manager.game_state == 1) {
 		game_manager.game_state = 0;
+		//Since transitioning from dilemmas, make sure whether it needs to be deleted or not.
+		if (!dilemma_manager.common_dilemmas[current_dilemma].repeatable)
+			dilemma_manager.common_dilemmas[current_dilemma].destroy = true;
 	}
 	
 	//Game Actions
@@ -22,8 +26,8 @@ function move_game_forward(){
 		//Get dilemma (basic)
 		game_manager.progress_allowed = false;
 		
-		var _rand = random_range(0, array_length(dilemma_manager.common_dilemmas) - 1)
-		_rand = round(_rand);
-		dilemma_manager.common_dilemmas[_rand].active = true;
+		current_dilemma = random_range(0, array_length(dilemma_manager.common_dilemmas) - 1)
+		current_dilemma = round(current_dilemma);
+		dilemma_manager.common_dilemmas[current_dilemma].active = true;
 	}
 }

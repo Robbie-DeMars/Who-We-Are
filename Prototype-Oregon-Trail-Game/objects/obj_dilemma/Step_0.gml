@@ -34,3 +34,10 @@ else {
 			options[_i].visible = false;
 	}
 }
+
+if (destroy) {
+	for (var _i = array_length(options) - 1; _i >= 0; i--) {
+		instance_destroy(options[_i]);
+	}
+	instance_destroy(id);
+}

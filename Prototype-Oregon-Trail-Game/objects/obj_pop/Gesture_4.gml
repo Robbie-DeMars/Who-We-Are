@@ -6,7 +6,6 @@ if (dragging) {
 	y = _anchor.y;
 	current_job = _anchor.job
 	var _temp = instance_nearest(x, y, obj_tribe_state);
-	show_debug_message(_temp.jobs[current_job] + " assigned!");
 }
 dragging = false;
 global.draggable = true;

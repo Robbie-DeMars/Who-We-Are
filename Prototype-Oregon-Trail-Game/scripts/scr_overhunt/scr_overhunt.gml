@@ -5,6 +5,6 @@ function scr_overhunt(_pop_count){
 	
 	//Do for every pop
 	for (ohunt = 0; ohunt < _pop_count; ohunt++) {
-		state.food += random_range(2, 12) * state.animal_pop;
+		state.food += round(random_range(2, 12)) * state.animal_pop;
 	}
 }

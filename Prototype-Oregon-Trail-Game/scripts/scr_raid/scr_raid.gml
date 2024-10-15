@@ -7,7 +7,7 @@ function scr_raid(_pop_count){
 	for (raid2 = 0; raid2 < _pop_count; raid2++) {
 		state.aggression++;
 		state.autonomy++;
-		raid_roll = random_range(1, 20);
+		raid_roll = round(random_range(1, 20));
 		if (raid_roll <= 2) {
 			for (raid = array_length(state.pop) - 1; raid >= 0; raid--) {
 				if (state.pop[raid].job == 4) {
@@ -16,7 +16,7 @@ function scr_raid(_pop_count){
 			}
 		}
 		else {
-			state.food += random_range(2, 12) * 2;
+			state.food += round(random_range(2, 12)) * 2;
 		}
 	}
 }

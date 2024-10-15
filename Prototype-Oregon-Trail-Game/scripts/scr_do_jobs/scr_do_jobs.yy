@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_do_jobs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_do_jobs",
+  "parent":{
+    "name":"Jobs",
+    "path":"folders/Scripts/Jobs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -2,4 +2,5 @@
 // You can write your code in this editor
 
 //TODO: Indicate to the model to simulate a round
-get_event();
+if (manager.progress_allowed)
+	move_game_forward();

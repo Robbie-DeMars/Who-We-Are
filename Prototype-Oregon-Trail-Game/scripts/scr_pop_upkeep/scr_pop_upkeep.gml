@@ -19,12 +19,11 @@ function scr_pop_upkeep(){
 		}
 		else {
 			state.food -= 6;
+			if (!state.pop[pop_upkeep].sated)
+				state.pop[pop_upkeep].sated = true;
 		}
 	}
-	show_debug_message("Starving: " + string(starving));
 	for (pop_upkeep = starving - 1; pop_upkeep >= 0; pop_upkeep--) {
-		show_debug_message("Starved " + string(pop_upkeep));
-		show_debug_message("pop starved!");
 		scr_remove_pop(starved_pops[pop_upkeep]);
 	}
 }

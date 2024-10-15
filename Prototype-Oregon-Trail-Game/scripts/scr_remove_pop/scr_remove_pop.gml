@@ -12,10 +12,9 @@ function scr_remove_pop(_ref_to_pop){
 			new_array[rem_pop - 1] = state.pop[rem_pop];
 		}
 		else if (state.pop[rem_pop] != _ref_to_pop) {
-			new_array[i] = state.pop[i];
+			new_array[rem_pop] = state.pop[rem_pop];
 		}
 		else if (state.pop[rem_pop] == _ref_to_pop) {
-			show_debug_message("Found bad pop");
 			pop_found = true;
 		}
 	}

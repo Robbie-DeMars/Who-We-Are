@@ -78,6 +78,7 @@
     {"id":{"name":"spr_board","path":"sprites/spr_board/spr_board.yy",},},
     {"id":{"name":"spr_button_disabled","path":"sprites/spr_button_disabled/spr_button_disabled.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
     {"id":{"name":"spr_option","path":"sprites/spr_option/spr_option.yy",},},
     {"id":{"name":"spr_pop_unsated","path":"sprites/spr_pop_unsated/spr_pop_unsated.yy",},},
     {"id":{"name":"spr_pop","path":"sprites/spr_pop/spr_pop.yy",},},

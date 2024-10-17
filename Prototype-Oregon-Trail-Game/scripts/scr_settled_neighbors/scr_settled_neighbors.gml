@@ -4,7 +4,7 @@ function scr_settled_neighbors_option_1()
 {
 	scr_increment_culture(-2);
 	scr_increment_food(10);
-	scr_unlock_progress()
+	scr_unlock_progress();
 }
 
 function scr_settled_neighbors_option_2()

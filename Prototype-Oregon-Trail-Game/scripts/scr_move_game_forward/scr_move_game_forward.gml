@@ -34,14 +34,14 @@ function move_game_forward()
 		var _result = irandom(20);
 		if(_result < state.aggression)
 		{
-			current_dilemma = random_range(0, array_length(dilemma_manager.colonial_dilemmas) - 1)
+			current_dilemma = random_range(0, array_length(dilemma_manager.colonial_dilemmas) - 1);
 			current_dilemma = round(current_dilemma);
 			dilemma_manager.colonial_dilemmas[current_dilemma].active = true;
 		}
 		else
 		{
 			//Get dilemma (basic)
-			current_dilemma = random_range(0, array_length(dilemma_manager.common_dilemmas) - 1)
+			current_dilemma = random_range(0, array_length(dilemma_manager.common_dilemmas) - 1);
 			current_dilemma = round(current_dilemma);
 			dilemma_manager.common_dilemmas[current_dilemma].active = true;
 		}

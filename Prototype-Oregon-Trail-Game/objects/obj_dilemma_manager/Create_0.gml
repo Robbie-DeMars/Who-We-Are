@@ -2,7 +2,16 @@
 // You can write your code in this editor
 
 //CREATE DILEMMAS HERE
-colonial_dilemmas = [];
+colonial_dilemmas = 
+[
+	scr_create_dilemma
+	(
+		"We have been raided!",
+		["Oh no!"],
+		[scr_raided_option_1],
+		true
+	)
+];
 
 
 
@@ -42,9 +51,25 @@ scr_create_dilemma
 ],
 [
 scr_dance_prep_option_1,
-scr_dance_prep_opton_2
+scr_dance_prep_option_2
 ],
 false
+),
+
+scr_create_dilemma
+(
+	"Foreign government is offering us a treaty. In exchange for allowing foreigners to settle on our lands we will be allowed to hunt on what they claim to be their territory.",
+	[
+	"Sign the treaty",
+	"Refuse to sign the treaty",
+	"Refuse to sign the treaty and hunt in that land anyways"
+	],
+	[
+	scr_hunting_treaty_option_1,
+	scr_hunting_treaty_option_2,
+	scr_hunting_treaty_option_3
+	],
+	false
 )
 
 

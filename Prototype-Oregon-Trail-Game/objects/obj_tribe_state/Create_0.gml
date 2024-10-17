@@ -16,7 +16,7 @@ autonomy = 10;
 animal_pop = 3;
 aggression = 5;
 
-//Job + job modifier
+//Job + job modifiers
 jobs = ["Waiting", "Ritual", "Overhunt", "Trade", "Raid", "Nurture", "Assimilate"];
 //Ritual Hunt
 ritual_hunt_food_mod = 0;

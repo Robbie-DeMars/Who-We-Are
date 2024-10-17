@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_vermin",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_vermin",
+  "parent":{
+    "name":"Normal",
+    "path":"folders/Scripts/Dilemmas/Normal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

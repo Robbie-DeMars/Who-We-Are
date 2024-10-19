@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pop",
-    "path":"sprites/spr_pop/spr_pop.yy",
+    "name":"spr_pop_sated_down",
+    "path":"sprites/spr_pop_sated_down/spr_pop_sated_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

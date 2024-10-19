@@ -9,4 +9,4 @@ draw_set_valign(fa_top);
 draw_sprite(spr_textbox, 0, x, y);
 
 //Text
-draw_text_ext(x + 15, y + 10, text, 20, box_width - 15);
+draw_text_ext(x + 15, y + 10, text, 35, box_width - 15);

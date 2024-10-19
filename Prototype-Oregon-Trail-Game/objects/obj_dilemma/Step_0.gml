@@ -9,7 +9,8 @@ if (active) {
 	}
 	if (array_length(options) < array_length(responses)) {
 		for (var _i = 0; _i < array_length(responses); _i++) {
-			options[_i] = instance_create_layer(x, y + text_box.box_height + _i*20, "Text", obj_option);
+			options[_i] = instance_create_layer(x, y + text_box.box_height + box_offset + (_i)*box_offset, "Text", obj_option);
+			options[_i].y -= spr_option.sprite_height;
 			options[_i].text = responses[_i];
 			options[_i].function_to_call = effects[_i];
 			options[_i].parent = id;

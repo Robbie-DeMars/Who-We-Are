@@ -16,6 +16,7 @@ if (dragging) {
 			_pops_to_arrange++;
 			_manager.pop[_anchor2].x = _anchor.x;
 			_manager.pop[_anchor2].y = _anchor.y;
+			_manager.pop[_anchor2].depth = _anchor2;
 		}
 	}
 	

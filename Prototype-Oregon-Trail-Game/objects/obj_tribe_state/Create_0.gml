@@ -16,12 +16,6 @@ autonomy = 10;
 animal_pop = 3;
 aggression = 5;
 
-//Cultural Practices
-practices = instance_nearest(0, 0, obj_cultural_practices);
-practice_display = instance_create_layer(0, room_height - sprite_get_height(spr_textbox), "Text", obj_text_box);
-practice_display.text = "Tenant 1: " + practices.practice_1 + "\n" + "Tenant 2: " + practices.practice_2 + "\n" + "Tenant 3: " + practices.practice_3;
-
-
 //Job + job modifiers
 jobs = ["Waiting", "Ritual", "Overhunt", "Trade", "Raid", "Nurture", "Assimilate"];
 //Ritual Hunt

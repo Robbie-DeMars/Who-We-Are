@@ -9,4 +9,3 @@ draw_text(dist*2, 50, "Culture: " + string(culture));
 draw_text(dist*3, 50, "Autonomy: " + string(autonomy)); 
 draw_text(dist*4, 50, _animal_name.text + " Pop: " + string(animal_pop)); 
 draw_text(dist*5, 50, "Aggression: " + string(aggression)); 
-persistent = true;

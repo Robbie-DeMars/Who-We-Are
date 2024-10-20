@@ -8,12 +8,12 @@ if (active) {
 		text_box.text = text;
 	}
 	if (array_length(options) < array_length(responses)) {
-		for (var _i = 0; _i < array_length(responses); _i++) {
-			options[_i] = instance_create_layer(x, y + text_box.box_height + box_offset + (_i)*box_offset, "Text", obj_option);
-			options[_i].y -= spr_option.sprite_height;
-			options[_i].text = responses[_i];
-			options[_i].function_to_call = effects[_i];
-			options[_i].parent = id;
+		for (var _dilemma_var = 0; _dilemma_var < array_length(responses); _dilemma_var++) {
+			options[_dilemma_var] = instance_create_layer(x, y + text_box.box_height + box_offset + (_dilemma_var)*box_offset, "Text", obj_option);
+			options[_dilemma_var].y -= sprite_get_height(spr_option);
+			options[_dilemma_var].text = responses[_dilemma_var];
+			options[_dilemma_var].function_to_call = effects[_dilemma_var];
+			options[_dilemma_var].parent = id;
 			
 		}
 	}

@@ -8,5 +8,9 @@ draw_set_valign(fa_top);
 //Textbox
 draw_sprite(spr_textbox, 0, x, y);
 
+var _text_written = string_copy(text, 1, index);
+if (index <= string_length(text))
+	index++;
+
 //Text
-draw_text_ext(x + 15, y + 10, text, 35, box_width - 15);
+draw_text_ext(x + 15, y + 10, _text_written, 35, box_width - 15);

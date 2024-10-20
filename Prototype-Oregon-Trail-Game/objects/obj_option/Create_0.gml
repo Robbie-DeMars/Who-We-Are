@@ -5,3 +5,4 @@ box_width = sprite_get_width(spr_option);
 box_height = sprite_get_height(spr_option);
 function_to_call = noone;
 parent = noone;
+index = 1;

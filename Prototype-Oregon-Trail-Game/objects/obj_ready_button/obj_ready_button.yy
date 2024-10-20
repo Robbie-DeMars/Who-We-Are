@@ -10,8 +10,8 @@
   "name":"obj_ready_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Main Game",
+    "path":"folders/Objects/Main Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

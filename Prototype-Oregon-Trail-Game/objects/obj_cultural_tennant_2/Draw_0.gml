@@ -11,7 +11,7 @@ draw_self();
 
 
 if ((keyboard_check(vk_enter) && practices_storage.definition_stage == 2) && string_length(keyboard_string) > 0) {
-	practices_storage.practice_1 = text;
+	practices_storage.practice_2 = text;
 	practices_storage.definition_stage = 3;
 	keyboard_string = "";
 	

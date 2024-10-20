@@ -9,8 +9,8 @@
   "name":"obj_tribe_state",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pop",
-    "path":"folders/Objects/Pop.yy",
+    "name":"Main Game",
+    "path":"folders/Objects/Main Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

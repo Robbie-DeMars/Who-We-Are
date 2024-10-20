@@ -7,4 +7,4 @@ if (index <= string_length(text))
 	index++;
 
 //Text
-draw_text_ext(x + 15, y, _text_written, 20, box_width - 15);
+draw_text_ext(x + 15, y, _text_written, 35, box_width - 15);

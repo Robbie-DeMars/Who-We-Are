@@ -30,6 +30,7 @@ function scr_do_jobs(){
 	scr_raid(_raid);
 	scr_nurture(_nurture, _overhunt);
 	scr_assimilate(_assimilate);
-
+	
+	scr_culture_upkeep();
 	scr_pop_upkeep();
 }

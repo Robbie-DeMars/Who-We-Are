@@ -9,8 +9,8 @@
   "name":"obj_game_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Main Game",
+    "path":"folders/Objects/Main Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

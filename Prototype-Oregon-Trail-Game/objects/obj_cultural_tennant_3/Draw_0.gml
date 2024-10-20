@@ -11,7 +11,7 @@ draw_self();
 
 
 if ((keyboard_check(vk_enter) && practices_storage.definition_stage == 3) && string_length(keyboard_string) > 0) {
-	practices_storage.practice_1 = text;
+	practices_storage.practice_3 = text;
 	keyboard_string = "";
 	room_goto(rm_main_game);
 }

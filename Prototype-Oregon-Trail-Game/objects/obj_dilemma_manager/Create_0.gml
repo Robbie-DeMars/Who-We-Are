@@ -84,7 +84,7 @@ scr_create_dilemma
 	scr_refugee_option_1,
 	scr_refugee_option_2
 	],
-	true
+	false
 )
 
 ];

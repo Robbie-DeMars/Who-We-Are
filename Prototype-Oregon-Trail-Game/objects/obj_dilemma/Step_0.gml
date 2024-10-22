@@ -28,12 +28,17 @@ if (active) {
 	
 }
 else {
-	if (text_box != noone)
-		text_box.visible = false;
-	for (var _i = 0; _i < array_length(options); _i++) {
-		if (options[_i] != noone)
-			options[_i].visible = false;
+	if (text_box != noone) {
+		instance_destroy(text_box);
+		text_box = noone;
 	}
+	for (var _i = 0; _i < array_length(options); _i++) {
+		if (options[_i] != noone) {
+			instance_destroy(options[_i]);
+			options[_i] = noone;
+		}
+	}
+	options = [];
 }
 
 if (destroy) {

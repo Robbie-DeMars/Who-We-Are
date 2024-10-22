@@ -17,7 +17,7 @@ if ((keyboard_check(vk_enter) && practices_storage.definition_stage == 3) && str
 	room_goto(rm_main_game);
 }
 
-if ((keyboard_check(vk_anykey) && string_length(text) < 20)  && practices_storage.definition_stage == 3) {
+if ((keyboard_check(vk_anykey) && string_length(text) < 50)  && practices_storage.definition_stage == 3) {
 	text = keyboard_string;
 }
 

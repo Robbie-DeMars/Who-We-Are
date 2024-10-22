@@ -20,7 +20,7 @@ if ((keyboard_check(vk_enter) && practices_storage.definition_stage == 1) && str
 	
 }
 
-if ((keyboard_check(vk_anykey) && string_length(text) < 20)  && practices_storage.definition_stage == 1) {
+if ((keyboard_check(vk_anykey) && string_length(text) < 50)  && practices_storage.definition_stage == 1) {
 	text = keyboard_string;
 }
 

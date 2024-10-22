@@ -5,3 +5,9 @@ function scr_add_human()
 	state = instance_nearest(0, 0, obj_tribe_state);
 	array_push(state.pop, instance_create_layer(state.x, state.y, "Pop_Tokens", obj_pop));
 }
+
+function scr_kill_human()
+{
+	state = instance_nearest(0, 0, obj_tribe_state);
+	scr_remove_pop(array_first(state.pop))
+}

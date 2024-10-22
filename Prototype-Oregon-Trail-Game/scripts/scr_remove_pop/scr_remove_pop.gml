@@ -6,15 +6,19 @@ function scr_remove_pop(_ref_to_pop){
 	pop_found = false;
 	
 	//Find pop location in array
-	for (rem_pop = 0; rem_pop < array_length(state.pop); rem_pop++) {
+	for (rem_pop = 0; rem_pop < array_length(state.pop); rem_pop++) 
+	{
 		
-		if (pop_found) {
+		if (pop_found) 
+		{
 			new_array[rem_pop - 1] = state.pop[rem_pop];
 		}
-		else if (state.pop[rem_pop] != _ref_to_pop) {
+		else if (state.pop[rem_pop] != _ref_to_pop) 
+		{
 			new_array[rem_pop] = state.pop[rem_pop];
 		}
-		else if (state.pop[rem_pop] == _ref_to_pop) {
+		else if (state.pop[rem_pop] == _ref_to_pop) 
+		{
 			pop_found = true;
 		}
 	}

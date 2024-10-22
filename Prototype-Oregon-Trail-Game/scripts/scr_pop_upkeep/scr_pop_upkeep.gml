@@ -10,7 +10,8 @@ function scr_pop_upkeep()
 	
 	for (pop_upkeep = array_length(state.pop) - 1; pop_upkeep >= 0; pop_upkeep--) {
 		if (state.food < 6) {
-			if (state.pop[pop_upkeep].sated) {
+			if (state.pop[pop_upkeep].sated) 
+			{
 				state.pop[pop_upkeep].sated = false;
 			}
 			else {

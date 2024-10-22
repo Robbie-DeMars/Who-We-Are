@@ -11,13 +11,15 @@ draw_set_color(c_white);
 draw_self();
 
 
-if (keyboard_check(vk_enter)) {
+if (keyboard_check(vk_enter)) 
+{
 	var _name_storage = instance_nearest(0, 0, obj_animal_name);
 	_name_storage.text = text;
 	room_goto(rm_define_culture);
 }
 
-if (keyboard_check(vk_anykey) && string_length(text) < 20) {
+if (keyboard_check(vk_anykey) && string_length(text) < 20)
+{
 	text = keyboard_string;
 }
 

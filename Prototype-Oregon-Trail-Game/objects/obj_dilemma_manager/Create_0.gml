@@ -15,7 +15,8 @@ colonial_dilemmas =
 
 
 
-common_dilemmas = [
+common_dilemmas = 
+[
 scr_create_dilemma(
 "Vermin ate our food stores! What we will do?", 
 [
@@ -70,12 +71,21 @@ scr_create_dilemma
 	scr_hunting_treaty_option_3
 	],
 	false
+),
+
+scr_create_dilemma
+(
+	"An ongoing war has created refugees from other tribes looking for new homes. We could take them in but people do not let go of their traditions easily and cultural clashes may arise.",
+	[
+	"Yes, take them in",
+	"No, we are too different",
+	],
+	[
+	scr_refugee_option_1,
+	scr_refugee_option_2
+	],
+	true
 )
-
-
-
-
-
 
 ];
 

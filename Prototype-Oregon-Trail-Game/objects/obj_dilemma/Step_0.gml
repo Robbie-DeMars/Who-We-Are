@@ -18,14 +18,6 @@ if (active) {
 		}
 	}
 	
-	//Set visible
-	if (text_box != noone)
-		text_box.visible = true;
-	for (var _i = 0; _i < array_length(options); _i++) {
-		if (options[_i] != noone)
-			options[_i].visible = true;
-	}
-	
 }
 else {
 	if (text_box != noone) {

@@ -25,4 +25,8 @@ function scr_remove_pop(_ref_to_pop){
 	
 	state.pop = new_array;
 	instance_destroy(_ref_to_pop);
+	if(array_length(state.pop) == 0)
+	{
+		scr_tribe_died();
+	}
 }

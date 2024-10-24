@@ -41,12 +41,12 @@ function scr_add_practice_3_benefits()
 {
 	state = instance_nearest(0, 0, obj_tribe_state);
 	state.trade_mod += 2;
-	assimilate_aggression_mod -= 1;
+	state.assimilate_aggression_mod -= 1;
 }
 
 function scr_remove_practice_3_benefits()
 {
 	state = instance_nearest(0, 0, obj_tribe_state);
 	state.trade_mod -= 2;
-	assimilate_aggression_mod += 1;
+	state.assimilate_aggression_mod += 1;
 }

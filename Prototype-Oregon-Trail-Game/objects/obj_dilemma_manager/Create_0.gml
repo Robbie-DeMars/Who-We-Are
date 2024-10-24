@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 //CREATE DILEMMAS HERE
+debug_dilemmas =
+[];
+
 colonial_dilemmas = 
 [
 	scr_create_dilemma

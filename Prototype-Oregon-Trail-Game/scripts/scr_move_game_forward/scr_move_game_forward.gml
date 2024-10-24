@@ -34,7 +34,13 @@ function move_game_forward()
 		//Determine if the dilemma will be a normal or aggression one.
 		game_manager.progress_allowed = false;
 		var _result = irandom(20);
-		if(_result < state.aggression)
+		if(array_length(dilemma_manager.debug_dilemmas) > 0)
+		{
+			_current_dilemma = random_range(0, array_length(dilemma_manager.debug_dilemmas)-1);
+			_current_dilemma = round(_current_dilemma);
+			dilemma_manager.debug_dilemmas[_current_dilemma].active = true;
+		}
+		else if(_result < state.aggression)
 		{
 			_current_dilemma = random_range(0, array_length(dilemma_manager.colonial_dilemmas) - 1);
 			_current_dilemma = round(_current_dilemma);

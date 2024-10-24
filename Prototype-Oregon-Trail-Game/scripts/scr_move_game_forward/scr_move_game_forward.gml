@@ -22,6 +22,7 @@ function move_game_forward()
 		//Since transitioning from dilemmas, make sure whether it needs to be deleted or not.
 		if (!dilemma_manager.common_dilemmas[_current_dilemma].repeatable)
 			dilemma_manager.common_dilemmas[_current_dilemma].destroy = true;
+			
 	}
 	
 	//Game Actions

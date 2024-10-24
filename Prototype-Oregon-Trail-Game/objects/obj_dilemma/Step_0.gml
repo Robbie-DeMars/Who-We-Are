@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (active) {
+if (active) 
+{
 	//Ensure ui elements are initialized properly
 	if (text_box == noone) {
 		text_box = instance_create_layer(x, y, "Text", obj_text_box);
@@ -18,22 +19,27 @@ if (active) {
 		}
 	}
 	
-}
-else {
-	if (text_box != noone) {
-		instance_destroy(text_box);
-		text_box = noone;
-	}
+	//Set visible
+	if (text_box != noone)
+		text_box.visible = true;
 	for (var _i = 0; _i < array_length(options); _i++) {
-		if (options[_i] != noone) {
-			instance_destroy(options[_i]);
-			options[_i] = noone;
-		}
+		if (options[_i] != noone)
+			options[_i].visible = true;
 	}
-	options = [];
+	
+}
+else 
+{
+	if (text_box != noone)
+		text_box.visible = false;
+	for (var _i = 0; _i < array_length(options); _i++) {
+		if (options[_i] != noone)
+			options[_i].visible = false;
+	}
 }
 
-if (destroy) {
+if (destroy) 
+{
 	for (var _i = array_length(options) - 1; _i >= 0; i--) {
 		instance_destroy(options[_i]);
 	}

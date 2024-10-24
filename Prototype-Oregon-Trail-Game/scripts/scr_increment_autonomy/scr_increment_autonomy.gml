@@ -5,6 +5,10 @@ function scr_increment_autonomy(_amount_changed){
 	state.autonomy += _amount_changed;
 	if (state.autonomy > 10)
 		state.autonomy = 10;
-	else if (state.autonomy < 0)
+	else if (state.autonomy <= 0)
+	{
 		state.autonomy = 0;
+		scr_lost_independece();
+	}
+	
 }

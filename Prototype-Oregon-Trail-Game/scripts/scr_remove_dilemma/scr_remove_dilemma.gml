@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_remove_dilemma(_ref_to_dil){
+function scr_remove_dilemma(_ref_to_dil)
+{
 	manager = instance_nearest(0, 0, obj_dilemma_manager);
 	new_array = [];
 	dilemma_found = false;

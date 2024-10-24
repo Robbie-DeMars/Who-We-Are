@@ -45,20 +45,6 @@ true),
 
 scr_create_dilemma
 (
-"It is time to begin preparations for the animal festival. This festival is an important celebration but it requires a great deal of resources. Perhaps it would be best to move on from the tradition.",
-[
-"We will fully commit to the animal dance",
-"We cannot afford to hold the dance this year",
-],
-[
-scr_dance_prep_option_1,
-scr_dance_prep_option_2
-],
-false
-),
-
-scr_create_dilemma
-(
 	"Foreign government is offering us a treaty. In exchange for allowing foreigners to settle on our lands we will be allowed to hunt on what they claim to be their territory.",
 	[
 	"Sign the treaty",

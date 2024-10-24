@@ -6,11 +6,14 @@ function scr_culture_upkeep()
 	practices_storage = instance_nearest(0, 0, obj_cultural_practices);
 	if (state.culture < 5) {
 		practices_storage.practice_3_active = false;
+		scr_remove_practice_3_benefits();
 	}
 	if (state.culture < -5) {
 		practices_storage.practice_2_active = false;
+		scr_remove_practice_2_benefits();
 	}
 	if (state.culture < -10) {
 		practices_storage.practice_1_active = false;
+		scr_remove_pratice_1_benefits();
 	}
 }

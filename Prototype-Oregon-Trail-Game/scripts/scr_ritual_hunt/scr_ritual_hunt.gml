@@ -6,6 +6,6 @@ function scr_ritual_hunt(_pop_count){
 	//Do for every pop
 	for (rhunt = 0; rhunt < _pop_count; rhunt++) {
 		scr_increment_food(round(random_range(1, 6) + state.ritual_hunt_food_mod) * state.animal_pop);
-		scr_increment_culture(1 + state.ritual_hunt_culture_mod);
+		scr_increment_culture(state.ritual_hunt_culture_mod);
 	}
 }

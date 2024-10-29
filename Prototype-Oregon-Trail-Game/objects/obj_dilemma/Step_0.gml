@@ -31,15 +31,19 @@ if (active)
 else 
 {
 	if (text_box != noone)
-		text_box.visible = false;
+		instance_destroy(text_box);
+		text_box = noone;
 	for (var _i = 0; _i < array_length(options); _i++) {
-		if (options[_i] != noone)
-			options[_i].visible = false;
+		if (options[_i] != noone) {
+			instance_destroy(options[_i]);
+		}
 	}
+	options = [];
 }
 
 if (destroy) 
 {
+	instance_destroy(text_box);
 	for (var _i = array_length(options) - 1; _i >= 0; i--) {
 		instance_destroy(options[_i]);
 	}

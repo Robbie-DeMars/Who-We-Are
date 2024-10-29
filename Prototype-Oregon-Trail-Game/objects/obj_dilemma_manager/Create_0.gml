@@ -4,21 +4,7 @@
 //CREATE DILEMMAS HERE
 debug_dilemmas =
 [
-scr_create_dilemma
-(
-	"Foreign government is offering us a treaty. In exchange for allowing foreigners to settle on our lands we will be allowed to hunt on what they claim to be their territory.",
-	[
-	"Sign the treaty",
-	"Refuse to sign the treaty",
-	"Refuse to sign the treaty and hunt in that land anyways"
-	],
-	[
-	scr_hunting_treaty_option_1,
-	scr_hunting_treaty_option_2,
-	scr_hunting_treaty_option_3
-	],
-	false
-),
+
 ];
 
 colonial_dilemmas = 

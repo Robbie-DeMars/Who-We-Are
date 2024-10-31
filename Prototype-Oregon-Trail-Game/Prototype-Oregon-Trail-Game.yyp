@@ -53,7 +53,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Prototype-Oregon-Trail-Game",
   "resources":[
@@ -137,6 +137,9 @@
     {"id":{"name":"spr_pop","path":"sprites/spr_pop/spr_pop.yy",},},
     {"id":{"name":"spr_textbox_vertical","path":"sprites/spr_textbox_vertical/spr_textbox_vertical.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
+    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

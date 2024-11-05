@@ -128,6 +128,7 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
     {"id":{"name":"spr_option","path":"sprites/spr_option/spr_option.yy",},},
+    {"id":{"name":"spr_overhunt","path":"sprites/spr_overhunt/spr_overhunt.yy",},},
     {"id":{"name":"spr_pop_sated_down","path":"sprites/spr_pop_sated_down/spr_pop_sated_down.yy",},},
     {"id":{"name":"spr_pop_sated_pick","path":"sprites/spr_pop_sated_pick/spr_pop_sated_pick.yy",},},
     {"id":{"name":"spr_pop_sated_up","path":"sprites/spr_pop_sated_up/spr_pop_sated_up.yy",},},

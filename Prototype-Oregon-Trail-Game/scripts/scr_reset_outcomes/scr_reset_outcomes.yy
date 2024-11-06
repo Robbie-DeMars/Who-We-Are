@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_reset_outcomes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_reset_outcomes",
+  "parent":{
+    "name":"Resources",
+    "path":"folders/Scripts/Resources.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

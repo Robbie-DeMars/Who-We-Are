@@ -115,6 +115,7 @@
     {"id":{"name":"scr_refugee","path":"scripts/scr_refugee/scr_refugee.yy",},},
     {"id":{"name":"scr_remove_dilemma","path":"scripts/scr_remove_dilemma/scr_remove_dilemma.yy",},},
     {"id":{"name":"scr_remove_pop","path":"scripts/scr_remove_pop/scr_remove_pop.yy",},},
+    {"id":{"name":"scr_reset_outcomes","path":"scripts/scr_reset_outcomes/scr_reset_outcomes.yy",},},
     {"id":{"name":"scr_ritual_hunt","path":"scripts/scr_ritual_hunt/scr_ritual_hunt.yy",},},
     {"id":{"name":"scr_settled_neighbors","path":"scripts/scr_settled_neighbors/scr_settled_neighbors.yy",},},
     {"id":{"name":"scr_test_dilemma","path":"scripts/scr_test_dilemma/scr_test_dilemma.yy",},},

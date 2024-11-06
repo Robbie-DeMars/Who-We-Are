@@ -8,7 +8,7 @@ draw_set_valign(fa_top);
 draw_set_color(c_white);
 
 //Textbox
-draw_sprite(spr_textbox, 0, x, y);
+draw_self();
 
 var _text_written = string_copy(text, 1, index);
 if (index <= string_length(text))

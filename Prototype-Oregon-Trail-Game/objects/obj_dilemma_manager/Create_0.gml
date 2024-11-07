@@ -3,9 +3,7 @@
 
 //CREATE DILEMMAS HERE
 debug_dilemmas =
-[
-
-];
+[];
 
 colonial_dilemmas = 
 [

@@ -4,7 +4,8 @@
 if (active) 
 {
 	//Ensure ui elements are initialized properly
-	if (text_box == noone) {
+	if (text_box == noone) 
+	{
 		text_box = instance_create_layer(x, y, "Text", obj_text_box);
 		text_box.text = text;
 	}
@@ -22,7 +23,8 @@ if (active)
 	//Set visible
 	if (text_box != noone)
 		text_box.visible = true;
-	for (var _i = 0; _i < array_length(options); _i++) {
+	for (var _i = 0; _i < array_length(options); _i++) 
+	{
 		if (options[_i] != noone)
 			options[_i].visible = true;
 	}
@@ -30,11 +32,14 @@ if (active)
 }
 else 
 {
+	
 	if (text_box != noone)
 		instance_destroy(text_box);
 		text_box = noone;
-	for (var _i = 0; _i < array_length(options); _i++) {
-		if (options[_i] != noone) {
+	for (var _i = 0; _i < array_length(options); _i++) 
+	{
+		if (options[_i] != noone) 
+		{
 			instance_destroy(options[_i]);
 		}
 	}

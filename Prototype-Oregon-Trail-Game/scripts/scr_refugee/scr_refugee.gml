@@ -5,12 +5,10 @@ function scr_refugee_option_1()
 	scr_reset_outcomes();
 	scr_add_human();
 	scr_increment_culture(-1);
-	scr_unlock_progress();
 }
 
 function scr_refugee_option_2()
 {
 	scr_reset_outcomes();
 	scr_increment_culture(3);
-	scr_unlock_progress();
 }

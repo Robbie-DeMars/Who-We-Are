@@ -3,3 +3,9 @@
 scr_add_practice_1_benefits();
 scr_add_practice_2_benefits();
 scr_add_practice_3_benefits();
+scr_add_human();
+scr_add_human();
+scr_add_human();
+scr_add_human();
+scr_add_human();
+scr_add_human();

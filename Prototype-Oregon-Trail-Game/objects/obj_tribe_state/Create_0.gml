@@ -5,13 +5,8 @@
 food = 36;
 pop = 
 [
-instance_create_layer(x, y, "Pop_Tokens", obj_pop),
-instance_create_layer(x, y, "Pop_Tokens", obj_pop),
-instance_create_layer(x, y, "Pop_Tokens", obj_pop),
-instance_create_layer(x, y, "Pop_Tokens", obj_pop),
-instance_create_layer(x, y, "Pop_Tokens", obj_pop),
-instance_create_layer(x, y, "Pop_Tokens", obj_pop)
 ];
+
 culture = 10;
 autonomy = 10;
 animal_pop = 3;

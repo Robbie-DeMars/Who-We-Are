@@ -6,9 +6,11 @@
 
 //Font
 draw_set_font(fnt_ETArtilux_text);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-draw_set_color(c_white);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_color(c_black);
+
+
 //Textbox
 draw_self();
 
@@ -26,6 +28,5 @@ if ((keyboard_check(vk_anykey) && string_length(text) < 50)  && practices_storag
 
 
 
-
 //Text
-draw_text_ext(x + 15, y, text, 20, box_width - 15);
+draw_text_ext(x, y, text, 25, 700);

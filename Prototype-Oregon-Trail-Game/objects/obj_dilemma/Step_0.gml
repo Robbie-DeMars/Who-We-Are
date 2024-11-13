@@ -11,7 +11,7 @@ if (active)
 	}
 	if (array_length(options) < array_length(responses)) {
 		for (var _dilemma_var = 0; _dilemma_var < array_length(responses); _dilemma_var++) {
-			options[_dilemma_var] = instance_create_layer(x, y + text_box.box_height + box_offset + (_dilemma_var)*box_offset, "Text", obj_option);
+			options[_dilemma_var] = instance_create_layer(x, y + text_box.box_height / 2 + box_offset + (_dilemma_var)*box_offset, "Text", obj_option);
 			options[_dilemma_var].y -= sprite_get_height(spr_option);
 			options[_dilemma_var].text = responses[_dilemma_var];
 			options[_dilemma_var].function_to_call = effects[_dilemma_var];

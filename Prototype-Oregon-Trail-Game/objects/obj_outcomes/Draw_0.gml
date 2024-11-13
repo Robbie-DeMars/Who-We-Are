@@ -12,4 +12,5 @@ var _text = "Food: " + string(food_change) +
 "\nAnimal Pop: " + string(animal_pop_change) +
 "\nHuman Pop: " + string(human_pop_change) + 
 "\nAggression: " + string(aggression_change);
+draw_set_color(c_white);
 draw_text_ext(x + 15, y + 10, _text, 35, box_width - 15);

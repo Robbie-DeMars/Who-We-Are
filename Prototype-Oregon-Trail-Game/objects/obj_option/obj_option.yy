@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_option",
-    "path":"sprites/spr_option/spr_option.yy",
+    "name":"spr_option_wooded",
+    "path":"sprites/spr_option_wooded/spr_option_wooded.yy",
   },
   "spriteMaskId":null,
   "visible":true,

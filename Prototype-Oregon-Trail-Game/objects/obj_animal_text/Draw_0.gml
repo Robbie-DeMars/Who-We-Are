@@ -12,4 +12,4 @@ if (index <= string_length(text))
 	index++;
 
 //Text
-draw_text_ext(x, y, _text_written, 25, 600);
+draw_text_ext(x, y, _text_written, 25, 800);

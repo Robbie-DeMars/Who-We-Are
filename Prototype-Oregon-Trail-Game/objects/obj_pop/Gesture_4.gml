@@ -4,10 +4,18 @@ if (dragging) {
 	var _anchor = instance_nearest(x, y, obj_pop_anchor);
 	current_job = _anchor.job;
 	
-	if(global.tutorial && !_anchor.message_shown)
+	if(global.tutorial)
 	{
-		scr_tutorial_job(current_job);
-		_anchor.message_shown = true;
+		if(!tutorial_assigned)
+		{
+			var _tutorial = instance_nearest(0, 0, obj_tutorial)
+			_tutorial.stage++;
+		}
+		if(!_anchor.message_shown)
+		{
+			scr_tutorial_job(current_job);
+			_anchor.message_shown = true;
+		}
 	}
 	
 	//ARRANGE TOKENS SPACED OUT FOR GREATER VISIBILITY

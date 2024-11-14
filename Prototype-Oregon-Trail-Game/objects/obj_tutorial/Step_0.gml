@@ -24,15 +24,22 @@ if(global.tutorial)
 			}
 		}
 	}
-	else if(stage < 7 && active == true)
+	else if(stage > 0 && active == true)
 	{
 		if(keyboard_check(vk_enter))
 		{
 			popup.visible = false
 			active = false;
-			stage++;
-			if(stage == 7)
-				manager.progress_allowed = true;
+			
 		}
 	}
+}
+if(stage == 7)
+{
+	popup.text = "Now that you have assigned all your pops to jobs you can proceed to the next step. After closing this message click the button on the right. You will be able to see the outcomes of your jobs to the right and you will get a dilemma you need to resolve."
+	popup.visible = true;
+	active = false;
+	alarm[0] = game_get_speed(gamespeed_fps)
+	manager.progress_allowed = true;
+	stage++;
 }

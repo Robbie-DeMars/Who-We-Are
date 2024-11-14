@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_textbox_vertical",
-    "path":"sprites/spr_textbox_vertical/spr_textbox_vertical.yy",
+    "name":"spr_culture",
+    "path":"sprites/spr_culture/spr_culture.yy",
   },
   "spriteMaskId":null,
   "visible":true,

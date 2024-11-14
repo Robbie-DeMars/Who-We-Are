@@ -2,7 +2,7 @@
 // You can write your code in this editor
 dist = room_width / 6;
 var _animal_name = instance_nearest(0, 0, obj_animal_name);
-draw_set_color(c_white);
+draw_set_color(make_color_rgb(92, 60, 22));
 draw_set_font(fnt_ETArtilux_text);
 draw_text(dist, 50, "Food: " + string(food)); 
 draw_text(dist*2, 50, "Culture: " + string(culture)); 

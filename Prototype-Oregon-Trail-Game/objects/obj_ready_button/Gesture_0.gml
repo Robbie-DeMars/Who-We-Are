@@ -6,6 +6,3 @@ if (manager.progress_allowed) {
 	scr_reset_outcomes();
 	move_game_forward();
 }
-else {
-	show_debug_message("Waiting to progress...");
-}

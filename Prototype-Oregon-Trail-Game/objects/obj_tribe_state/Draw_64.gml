@@ -1,11 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 dist = room_width / 6;
+var _animal_pop = "High";
 var _animal_name = instance_nearest(0, 0, obj_animal_name);
 draw_set_color(make_color_rgb(92, 60, 22));
 draw_set_font(fnt_ETArtilux_text);
 draw_text(dist, 50, "Food: " + string(food)); 
-draw_text(dist*2, 50, "Culture: " + string(culture)); 
-draw_text(dist*3, 50, "Autonomy: " + string(autonomy)); 
-draw_text(dist*4, 50, _animal_name.text + " Pop: " + string(animal_pop)); 
-draw_text(dist*5, 50, "Aggression: " + string(aggression)); 
+draw_text(dist*2, 50, "Cult.: " + string(culture)); 
+draw_text(dist*3, 50, "Auto.: " + string(autonomy));
+
+if (_animal_pop == 1) 
+	_animal_pop = "Low";
+else if (_animal_pop == 2)
+	_animal_pop = "Med";
+else 
+	_animal_pop = "High";
+
+draw_text(dist*4, 50, _animal_name.text + " Pop: " + _animal_pop); 
+draw_text(dist*5, 50, "Aggro: " + string(aggression)); 

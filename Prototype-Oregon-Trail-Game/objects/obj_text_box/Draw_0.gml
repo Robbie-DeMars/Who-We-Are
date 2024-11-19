@@ -9,10 +9,25 @@ draw_set_valign(fa_middle);
 //Textbox
 draw_self();
 
+
 //Text
-var _text_written = string_copy(text, 1, index);
-if (index <= string_length(text))
-	index++;
+if (text != text_last_frame) {
+	index = 0;
+}
+if (delay >= frame_delay) {
+delay = 0;
+	if (index <= string_length(text)) {
+		index++;
+		audio_play_sound(snd_bass, 1, false);
+	}
+}
+else {
+	delay++;
+}
+
+
 draw_set_color(c_black);
-//draw_text_ext(x - box_width / 2 +  50, y + 40 - box_height / 2, _text_written, 20, box_width - 100);
-draw_text_ext(x, y, _text_written, 25, 700);
+var _text_written = string_copy(text, 1, index);
+draw_text_ext(x, y, _text_written, 25, 800);
+
+text_last_frame = text;

@@ -6,9 +6,24 @@ draw_set_valign(fa_middle);
 draw_set_color(c_black);
 draw_self();
 
-var _text_written = string_copy(text, 1, index);
-if (index <= string_length(text))
-	index++;
-
 //Text
-draw_text_ext(x, y, _text_written, 25, 600);
+if (text != text_last_frame) {
+	index = 0;
+}
+if (delay >= frame_delay) {
+delay = 0;
+	if (index <= string_length(text)) {
+		index++;
+		audio_play_sound(snd_bass, 1, false);
+	}
+}
+else {
+	delay++;
+}
+
+
+draw_set_color(c_black);
+var _text_written = string_copy(text, 1, index);
+draw_text_ext(x, y, _text_written, 25, 800);
+
+text_last_frame = text;

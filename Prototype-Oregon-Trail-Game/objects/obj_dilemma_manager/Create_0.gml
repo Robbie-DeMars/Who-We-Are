@@ -21,7 +21,7 @@ colonial_dilemmas =
 common_dilemmas = 
 [
 scr_create_dilemma(
-"Vermin ate our food stores! What we will do?", 
+"Vermin ate our food stores! What will we do?", 
 [
 "There is no need to worry, we have enough food", 
 "Trade with settlers for more food", 

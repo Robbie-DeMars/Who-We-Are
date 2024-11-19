@@ -1,4 +1,4 @@
-// Script assets have changed for v2.3.0 see
+	// Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function move_game_forward()
 {
@@ -22,6 +22,8 @@ function move_game_forward()
 		//Since transitioning from dilemmas, make sure whether it needs to be deleted or not.
 		if (!dilemma_manager.common_dilemmas[_current_dilemma].repeatable)
 			dilemma_manager.common_dilemmas[_current_dilemma].destroy = true;
+			
+		scr_increment_aggression(1);
 			
 	}
 	

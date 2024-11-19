@@ -9,9 +9,9 @@ draw_text(dist, 50, "Food: " + string(food));
 draw_text(dist*2, 50, "Cult.: " + string(culture)); 
 draw_text(dist*3, 50, "Auto.: " + string(autonomy));
 
-if (_animal_pop == 1) 
+if (animal_pop == 1) 
 	_animal_pop = "Low";
-else if (_animal_pop == 2)
+else if (animal_pop == 2)
 	_animal_pop = "Med";
 else 
 	_animal_pop = "High";

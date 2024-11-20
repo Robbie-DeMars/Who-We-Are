@@ -9,6 +9,10 @@ if (active)
 		text_box = instance_create_layer(x, y, "Text", obj_text_box);
 		text_box.text = text;
 	}
+	if (link_button == noone && link != "") {
+		link_button = instance_create_layer(0, 0, "Text", obj_link_button);
+		link_button.link = link;
+	}
 	if (array_length(options) < array_length(responses)) {
 		for (var _dilemma_var = 0; _dilemma_var < array_length(responses); _dilemma_var++) {
 			options[_dilemma_var] = instance_create_layer(x, y + text_box.box_height / 2 + box_offset + (_dilemma_var)*box_offset, "Text", obj_option);
@@ -33,9 +37,14 @@ if (active)
 else 
 {
 	
-	if (text_box != noone)
+	if (text_box != noone) {
 		instance_destroy(text_box);
 		text_box = noone;
+	}
+	if (link_button != noone) {
+		instance_destroy(link_button);
+		link_button = noone;
+	}
 	for (var _i = 0; _i < array_length(options); _i++) 
 	{
 		if (options[_i] != noone) 

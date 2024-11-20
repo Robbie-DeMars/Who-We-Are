@@ -11,3 +11,6 @@ destroy = false;
 text_box = noone;
 options = [];
 active = false;
+link_button = noone;
+
+link = "";

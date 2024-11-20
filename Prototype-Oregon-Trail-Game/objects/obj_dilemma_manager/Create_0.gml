@@ -12,7 +12,8 @@ colonial_dilemmas =
 		"We have been raided!",
 		["Oh no!"],
 		[scr_raided_option_1],
-		true
+		true,
+		"https://theuselessweb.com/"
 	)
 ];
 
@@ -32,7 +33,8 @@ scr_vermin_option_1,
 scr_vermin_option_2,
 scr_vermin_option_3
 ],
-true),
+true,
+"https://theuselessweb.com/"),
 
 scr_create_dilemma(
 "A messanger from a nearby tribe has arrived. While we persist in our more nomadic lifestyle they have elected to build permanent settlements and believe our differences could yield benefits through trade",
@@ -44,7 +46,8 @@ scr_create_dilemma(
 scr_settled_neighbors_option_1,
 scr_settled_neighbors_option_2
 ],
-true),
+true,
+""),
 
 
 
@@ -59,7 +62,8 @@ scr_create_dilemma
 	scr_refugee_option_1,
 	scr_refugee_option_2
 	],
-	false
+	false,
+	"https://theuselessweb.com/"
 )
 
 ];

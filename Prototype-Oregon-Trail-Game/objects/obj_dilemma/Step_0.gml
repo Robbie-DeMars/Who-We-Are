@@ -9,9 +9,10 @@ if (active)
 		text_box = instance_create_layer(x, y, "Text", obj_text_box);
 		text_box.text = text;
 	}
-	if (link_button == noone && link != "") {
-		link_button = instance_create_layer(0, 0, "Text", obj_link_button);
-		link_button.link = link;
+	if (link_more_info_button == noone && link != "") {
+		link_more_info_button = instance_create_layer(500, 0, "Info", obj_more_info_button);
+		link_more_info_button.link = link;
+		link_more_info_button.text = link_text;
 	}
 	if (array_length(options) < array_length(responses)) {
 		for (var _dilemma_var = 0; _dilemma_var < array_length(responses); _dilemma_var++) {
@@ -41,9 +42,9 @@ else
 		instance_destroy(text_box);
 		text_box = noone;
 	}
-	if (link_button != noone) {
-		instance_destroy(link_button);
-		link_button = noone;
+	if (link_more_info_button != noone) {
+		instance_destroy(link_more_info_button);
+		link_more_info_button = noone;
 	}
 	for (var _i = 0; _i < array_length(options); _i++) 
 	{
@@ -61,5 +62,6 @@ if (destroy)
 	for (var _i = array_length(options) - 1; _i >= 0; i--) {
 		instance_destroy(options[_i]);
 	}
+	instance_destroy(link_more_info_button);
 	instance_destroy(id);
 }

@@ -20,8 +20,34 @@ function move_game_forward()
 		dilemma_manager.common_dilemmas[_current_dilemma].active = false;
 		
 		//Since transitioning from dilemmas, make sure whether it needs to be deleted or not.
-		if (!dilemma_manager.common_dilemmas[_current_dilemma].repeatable)
-			dilemma_manager.common_dilemmas[_current_dilemma].destroy = true;
+		//if (!dilemma_manager.common_dilemmas[_current_dilemma].repeatable)
+			//dilemma_manager.common_dilemmas[_current_dilemma].destroy = true;
+			
+		show_debug_message(string(dilemma_manager.last_dilemma));
+		if (dilemma_manager.last_dilemma == 1 && dilemma_manager.colonial_dilemmas[_current_dilemma].repeatable == false) {
+			var _new_dilemma_list = [];
+			var offset = 0;
+			for (var i = 0; i < array_length(dilemma_manager.colonial_dilemmas); i++) {
+				if (dilemma_manager.colonial_dilemmas[i - offset] != dilemma_manager.colonial_dilemmas[_current_dilemma]) {
+				_new_dilemma_list[i] = dilemma_manager.colonial_dilemmas[i - offset];
+				offset++;
+				}
+			}
+			dilemma_manager.colonial_dilemmas = _new_dilemma_list;
+		}
+			
+		if (dilemma_manager.last_dilemma == 2 && dilemma_manager.common_dilemmas[_current_dilemma].repeatable == false) {
+			show_debug_message("REMOVING DILEMMA PLEASE")
+			var _new_dilemma_list = [];
+			var offset = 0;
+			for (var i = 0; i < array_length(dilemma_manager.common_dilemmas); i++) {
+				if (dilemma_manager.common_dilemmas[i - offset] != dilemma_manager.common_dilemmas[_current_dilemma]) {
+				_new_dilemma_list[i] = dilemma_manager.common_dilemmas[i - offset];
+				offset++;
+				}
+			}
+			dilemma_manager.common_dilemmas = _new_dilemma_list;
+		}	
 			
 		scr_increment_aggression(1);
 			
@@ -42,19 +68,22 @@ function move_game_forward()
 			_current_dilemma = random_range(0, array_length(dilemma_manager.debug_dilemmas)-1);
 			_current_dilemma = round(_current_dilemma);
 			dilemma_manager.debug_dilemmas[_current_dilemma].active = true;
+			dilemma_manager.last_dilemma = 3;
 		}
 		else if(_result < state.aggression)
 		{
-			_current_dilemma = random_range(0, array_length(dilemma_manager.colonial_dilemmas) - 1);
+			_current_dilemma = random_range(0, array_length(dilemma_manager.colonial_dilemmas)-1);
 			_current_dilemma = round(_current_dilemma);
 			dilemma_manager.colonial_dilemmas[_current_dilemma].active = true;
+			dilemma_manager.last_dilemma = 1;
 		}
 		else
 		{
 			//Get dilemma (basic)
-			_current_dilemma = random_range(0, array_length(dilemma_manager.common_dilemmas) - 1);
+			_current_dilemma = random_range(0, array_length(dilemma_manager.common_dilemmas)-1);
 			_current_dilemma = round(_current_dilemma);
 			dilemma_manager.common_dilemmas[_current_dilemma].active = true;
+			dilemma_manager.last_dilemma = 2;
 		}
 		
 	}

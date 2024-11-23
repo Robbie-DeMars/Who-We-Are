@@ -24,6 +24,7 @@ function move_game_forward()
 			//dilemma_manager.common_dilemmas[_current_dilemma].destroy = true;
 			
 		show_debug_message(string(dilemma_manager.last_dilemma));
+		show_debug_message(string(dilemma_manager.common_dilemmas[_current_dilemma].repeatable));
 		if (dilemma_manager.last_dilemma == 1 && dilemma_manager.colonial_dilemmas[_current_dilemma].repeatable == false) {
 			var _new_dilemma_list = [];
 			var offset = 0;

@@ -11,3 +11,4 @@ box_height = sprite_get_height(spr_textbox_wooded) * image_yscale;
 index = 1;
 frame_delay = 1;
 delay = 0;
+card = spr_anchor;

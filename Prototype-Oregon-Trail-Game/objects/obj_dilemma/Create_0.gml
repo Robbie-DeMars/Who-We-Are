@@ -19,3 +19,4 @@ link_more_info_button = noone;
 link_image = spr_anchor;
 link_button = noone;
 link = "";
+card = spr_anchor;

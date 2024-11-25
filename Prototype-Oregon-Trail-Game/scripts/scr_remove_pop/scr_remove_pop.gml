@@ -24,6 +24,7 @@ function scr_remove_pop(_ref_to_pop){
 	}
 	
 	state.pop = new_array;
+	instance_create_layer(_ref_to_pop.x, _ref_to_pop.y, "Pop_Tokens", obj_explode);
 	instance_destroy(_ref_to_pop);
 	if(array_length(state.pop) == 0)
 	{

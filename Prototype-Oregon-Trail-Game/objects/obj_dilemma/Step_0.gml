@@ -10,9 +10,10 @@ if (active)
 		text_box.text = text;
 	}
 	if (link_more_info_button == noone && link != "") {
-		link_more_info_button = instance_create_layer(500, 0, "Info", obj_more_info_button);
+		link_more_info_button = instance_create_layer(room_width - 128, room_height - 64, "Info", obj_more_info_button);
 		link_more_info_button.link = link;
 		link_more_info_button.text = link_text;
+		link_more_info_button.card = card;
 	}
 	if (array_length(options) < array_length(responses)) {
 		for (var _dilemma_var = 0; _dilemma_var < array_length(responses); _dilemma_var++) {

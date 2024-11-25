@@ -28,6 +28,7 @@ else {
 
 draw_set_color(c_black);
 var _text_written = string_copy(text, 1, index);
-draw_text_ext(x, y, _text_written, 25, 800);
+draw_text_ext(x - 300, y, _text_written, 25, 900);
+draw_sprite_ext(card, 0, x + 450, y, 4, 4, 0, c_white, 1);
 
 text_last_frame = text;

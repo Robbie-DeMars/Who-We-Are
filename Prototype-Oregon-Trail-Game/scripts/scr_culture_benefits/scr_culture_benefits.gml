@@ -27,7 +27,10 @@ function scr_add_practice_2_benefits()
 		scr_dance_prep_option_1,
 		scr_dance_prep_option_2
 		],
-		true
+		true,
+		"",
+		"https://theuselessweb.com/",
+		spr_anchor
 	)
 	array_push(dilemmas.common_dilemmas, global.bonus_dilemma);
 }

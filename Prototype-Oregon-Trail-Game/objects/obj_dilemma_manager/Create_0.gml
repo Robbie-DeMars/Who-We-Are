@@ -70,7 +70,7 @@ scr_create_dilemma
 	scr_refugee_option_2
 	],
 	false,
-	"In the 18th century, Iroquois living in the Great Lakes area up into modern day Canada would travel as far as the Carolinas to wage war against the Chickasaw, Chocktaw, and Cherokee. These tribes would wage war with each other to help members of their group cope with the loss of a loved one. Known as 'Mourning wars,' the aim of these raids was to capture enemies as `replacements` for deceased members of their tribe. The women of the tribe would assess if the captured males were `fit` enough to be adopted into their tribe. If they weren’t, they would be ceremonially tortured to death.",
+	"In the 18th century, Iroquois living in the Great Lakes area up into modern day Canada would travel as far as the Carolinas to wage war against the Chickasaw, Chocktaw, and Cherokee. These tribes would wage war with each other to help members of their group cope with the loss of a loved one. Known as 'Mourning wars,' the aim of these raids was to capture enemies as `replacements` for deceased members of their tribe. The women of the tribe would assess if the captured males were `fit` enough to be adopted into their tribe. If they weren't, they would be ceremonially tortured to death.",
 	"https://www.oxfordreference.com/display/10.1093/acref/9780195071986.001.0001/acref-9780195071986-e-0618",
 	spr_refugees
 )

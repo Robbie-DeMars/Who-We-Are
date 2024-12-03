@@ -63,7 +63,7 @@
     {"name":"PS_Explode","path":"particlelib/PS_Explode/PS_Explode.yy",},
   ],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Prototype-Oregon-Trail-Game",
   "resources":[
@@ -74,6 +74,7 @@
     {"id":{"name":"obj_animal_name_box","path":"objects/obj_animal_name_box/obj_animal_name_box.yy",},},
     {"id":{"name":"obj_animal_name","path":"objects/obj_animal_name/obj_animal_name.yy",},},
     {"id":{"name":"obj_animal_text","path":"objects/obj_animal_text/obj_animal_text.yy",},},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
     {"id":{"name":"obj_cultural_practices","path":"objects/obj_cultural_practices/obj_cultural_practices.yy",},},
     {"id":{"name":"obj_cultural_tennant_1","path":"objects/obj_cultural_tennant_1/obj_cultural_tennant_1.yy",},},
     {"id":{"name":"obj_cultural_tennant_2","path":"objects/obj_cultural_tennant_2/obj_cultural_tennant_2.yy",},},

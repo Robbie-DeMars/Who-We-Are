@@ -4,14 +4,12 @@
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_color(c_white);
-	draw_text(x, y, "Credits\n" +
+	draw_text(x, y, "Credits\n\n" +
 	"Who We Are Team\n" +
-	"Robbie DeMars" +
-	"Diego Fortson" +
-	"Brennan " +
+	"Robbie DeMars\n" +
+	"Diego Fortson\n" +
+	"Brennan Castro\n\n" +
+	"Assets\n\n" +
 	"Button click by Dgobe aquired through freesound\n" + 
-	""
-	
-	
-	
+	"Soundfont by Shan"
 	);

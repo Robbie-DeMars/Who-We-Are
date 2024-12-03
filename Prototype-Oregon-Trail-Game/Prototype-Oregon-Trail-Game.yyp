@@ -179,6 +179,7 @@
     {"id":{"name":"spr_pop_unsated","path":"sprites/spr_pop_unsated/spr_pop_unsated.yy",},},
     {"id":{"name":"spr_pop","path":"sprites/spr_pop/spr_pop.yy",},},
     {"id":{"name":"spr_question_button","path":"sprites/spr_question_button/spr_question_button.yy",},},
+    {"id":{"name":"spr_question_mark","path":"sprites/spr_question_mark/spr_question_mark.yy",},},
     {"id":{"name":"spr_raid","path":"sprites/spr_raid/spr_raid.yy",},},
     {"id":{"name":"spr_refugees","path":"sprites/spr_refugees/spr_refugees.yy",},},
     {"id":{"name":"spr_ritualhunt","path":"sprites/spr_ritualhunt/spr_ritualhunt.yy",},},

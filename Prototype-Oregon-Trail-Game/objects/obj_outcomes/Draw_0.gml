@@ -71,5 +71,5 @@ var _text = "Food: " + _food_text +
 "\nAnimal Pop: " + _animal_text +
 "\nHuman Pop: " + _pop_text + 
 "\nAggression: " + _aggression_text;
-draw_set_color(c_white);
-draw_text_ext(x + 15, y + 10, _text, 35, box_width - 15);
+draw_set_color(c_black);
+draw_text_ext(x + 50, y + 50, _text, 35, box_width - 15);

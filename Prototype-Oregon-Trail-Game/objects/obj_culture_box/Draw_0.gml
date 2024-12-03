@@ -13,13 +13,13 @@ if (practices_storage.practice_1_active) {
 	draw_set_color(make_color_rgb(92, 60, 22));
 	draw_set_font(fnt_ETArtilux_text);
 	text = text + "Tradition 1: " + practices_storage.practice_1;
-	draw_text_ext(x + 200, y + 70, text, 35, box_width - 30);
+	draw_text_ext(x + 170, y + 70, text, 35, box_width - 30);
 }
 else {
 	draw_set_color(c_red);
 	draw_set_font(fnt_ETArtilux_text);
 	text = text + "Tradition 1: " + practices_storage.practice_1;
-	draw_text_ext(x + 200, y + 70, text, 35, box_width - 30);
+	draw_text_ext(x + 170, y + 70, text, 35, box_width - 30);
 }
 
 text = "";
@@ -27,13 +27,13 @@ if (practices_storage.practice_2_active) {
 	draw_set_color(make_color_rgb(92, 60, 22));
 	draw_set_font(fnt_ETArtilux_text);
 	text = text + "\nTradition 2: " + practices_storage.practice_2 + "\n";
-	draw_text_ext(x + 200, y + 270, text, 35, box_width - 30);
+	draw_text_ext(x + 170, y + 270, text, 35, box_width - 30);
 }
 else {
 	draw_set_color(c_red);
 	draw_set_font(fnt_ETArtilux_text);
 	text = text + "\nTradition 2: " + practices_storage.practice_2 + "\n";
-	draw_text_ext(x + 200, y + 270, text, 35, box_width - 30);
+	draw_text_ext(x + 170, y + 270, text, 35, box_width - 30);
 }
 
 text = "";
@@ -41,13 +41,13 @@ if (practices_storage.practice_3_active) {
 	draw_set_color(make_color_rgb(92, 60, 22));
 	draw_set_font(fnt_ETArtilux_text);
 	text = text + "\n \nTradition 3: " + practices_storage.practice_3 + "\n";
-	draw_text_ext(x + 200, y + 470, text, 35, box_width - 30);
+	draw_text_ext(x + 170, y + 470, text, 35, box_width - 30);
 }
 else {
 	draw_set_color(c_red);
 	draw_set_font(fnt_ETArtilux_text);
 	text = text + "\n \nTradition 3: " + practices_storage.practice_3 + "\n";
-	draw_text_ext(x + 200, y + 470, text, 35, box_width - 30);
+	draw_text_ext(x + 170, y + 470, text, 35, box_width - 30);
 }
 
 

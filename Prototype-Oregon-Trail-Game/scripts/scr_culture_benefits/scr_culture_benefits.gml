@@ -28,9 +28,9 @@ function scr_add_practice_2_benefits()
 		scr_dance_prep_option_2
 		],
 		true,
-		"",
-		"https://theuselessweb.com/",
-		spr_anchor
+		"Held among the Cheyenne, Kiowa, Ponca, and Arapaho tribes in the Oklahoma area, the sun dance was a public and annual Native American religious ceremony held before the summer bison hunt. The sun dance was a four-day ceremony of fasting, dancing, and prayer. During this ceremony, members of these tribes often painted their bodies yellow and wore a bandolier of crow or raven feathers across their bodies and carried a wreath of sage in their right hand.",
+		"https://www.okhistory.org/publications/enc/entry?entry=SU008#:~:text=Each%20summer%20after%20the%20sacred,and%20fast%20for%20four%20days.",
+		spr_sundance
 	)
 	array_push(dilemmas.common_dilemmas, global.bonus_dilemma);
 }

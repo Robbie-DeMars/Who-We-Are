@@ -25,6 +25,6 @@ else {
 
 draw_set_color(c_black);
 var _text_written = string_copy(text, 1, index);
-draw_text_ext(x, y, _text_written, 25, 800);
+draw_text_ext(x, y, _text_written, 25, box_width - 150);
 
 text_last_frame = text;

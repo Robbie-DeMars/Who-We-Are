@@ -29,7 +29,20 @@ colonial_dilemmas =
 		true,
 		"At the start of the 19th century, Bison populations in North America were so abundant that it was said that some herds “covered the plains like a shadow” as far as the eye could see. An estimated 60 million Bison roamed the Plains. But by 1880, there were only an estimated 500 Bison left in existence. Beginning in the 1860’s, the U.S. Army attempted to subdue the Plains Indians in order to make way for settlements and railroad lines. It was well recognized at the time the important role Bison played for the Indigenous people. So, the United States began purposely over hunting Bison to benefit themselves and hinder Native Americans. Oftentimes though, Bison would be killed without being harvested, being left to decay.",
 		"https://www.nps.gov/articles/000/what-happened-to-the-bison.htm",
-		spr_raided
+		spr_bison
+	),
+	
+	scr_create_dilemma
+	(
+		"Traders have cornered the market for food gained from hunting most of the " + animal_name.text + "! Now they are seeking to sell the hunt from our own sacred " + animal_name.text + " back to us. Do we accept their deal?",
+		["Yes, there’s nothing else we can do to get the food our people need.",
+		"No, we will break into their settlements and take back what was ours."],
+		[scr_market_cornered_option_1,
+		scr_market_cornered_option_2],
+		true,
+		"",
+		"",
+		spr_anchor
 	)
 ];
 

@@ -127,6 +127,7 @@
     {"id":{"name":"scr_increment_food","path":"scripts/scr_increment_food/scr_increment_food.yy",},},
     {"id":{"name":"scr_increment_pop","path":"scripts/scr_increment_pop/scr_increment_pop.yy",},},
     {"id":{"name":"scr_lose_game","path":"scripts/scr_lose_game/scr_lose_game.yy",},},
+    {"id":{"name":"scr_market_cornered","path":"scripts/scr_market_cornered/scr_market_cornered.yy",},},
     {"id":{"name":"scr_move_game_forward","path":"scripts/scr_move_game_forward/scr_move_game_forward.yy",},},
     {"id":{"name":"scr_nurture","path":"scripts/scr_nurture/scr_nurture.yy",},},
     {"id":{"name":"scr_overhunt","path":"scripts/scr_overhunt/scr_overhunt.yy",},},

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_market_cornered",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_market_cornered",
+  "parent":{
+    "name":"Colonial",
+    "path":"folders/Scripts/Dilemmas/Colonial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

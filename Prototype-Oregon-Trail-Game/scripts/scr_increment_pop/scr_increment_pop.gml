@@ -7,6 +7,6 @@ function scr_increment_pop(_amount_changed){
 	state.animal_pop += _amount_changed;
 	if (state.animal_pop > 3)
 		state.animal_pop = 3;
-	else if (state.animal_pop < 0)
-		state.animal_pop = 0;
+	else if (state.animal_pop < 1)
+		state.animal_pop = 1;
 }

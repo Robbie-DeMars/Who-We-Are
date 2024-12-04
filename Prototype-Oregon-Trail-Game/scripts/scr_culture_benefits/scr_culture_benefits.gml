@@ -3,13 +3,13 @@
 function scr_add_practice_1_benefits()
 {
 	state = instance_nearest(0, 0, obj_tribe_state);
-	ritual_hunt_culture_mod += 1;
+	state.ritual_hunt_culture_mod += 1;
 }
 
 function scr_remove_pratice_1_benefits()
 {
 	state = instance_nearest(0, 0, obj_tribe_state);
-	ritual_hunt_food_mod -= 3;
+	state.ritual_hunt_food_mod -= 3;
 }
 
 function scr_add_practice_2_benefits()

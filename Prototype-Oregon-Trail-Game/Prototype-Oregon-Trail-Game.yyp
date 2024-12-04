@@ -113,6 +113,7 @@
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"scr_add_human","path":"scripts/scr_add_human/scr_add_human.yy",},},
     {"id":{"name":"scr_assimilate","path":"scripts/scr_assimilate/scr_assimilate.yy",},},
+    {"id":{"name":"scr_buffalo_overhunt","path":"scripts/scr_buffalo_overhunt/scr_buffalo_overhunt.yy",},},
     {"id":{"name":"scr_create_dilemma","path":"scripts/scr_create_dilemma/scr_create_dilemma.yy",},},
     {"id":{"name":"scr_culture_benefits","path":"scripts/scr_culture_benefits/scr_culture_benefits.yy",},},
     {"id":{"name":"scr_culture_upkeep","path":"scripts/scr_culture_upkeep/scr_culture_upkeep.yy",},},

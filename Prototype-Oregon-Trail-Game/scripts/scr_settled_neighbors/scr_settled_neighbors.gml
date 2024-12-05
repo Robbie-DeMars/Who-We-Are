@@ -3,12 +3,13 @@
 function scr_settled_neighbors_option_1()
 {
 	scr_reset_outcomes();
-	scr_increment_culture(-2);
+	scr_increment_culture(-10);
 	scr_increment_food(10);
 }
 
 function scr_settled_neighbors_option_2()
 {
 	scr_reset_outcomes();
-	scr_increment_culture(1);
+	scr_increment_culture(10);
+	scr_increment_aggression(2);
 }

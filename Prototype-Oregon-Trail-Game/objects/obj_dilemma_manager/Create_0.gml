@@ -110,7 +110,7 @@ scr_create_dilemma(
 	],
 	true,
 	"",
-	"https://theuselessweb.com/",
+	"",
 	spr_anchor
 ),
 

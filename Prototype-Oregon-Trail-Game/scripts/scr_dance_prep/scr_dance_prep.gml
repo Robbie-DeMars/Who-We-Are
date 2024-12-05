@@ -3,12 +3,12 @@
 function scr_dance_prep_option_1()
 {
 	scr_reset_outcomes();
-	scr_increment_food(-20);
-	scr_increment_culture(3);
+	scr_increment_food(-30);
+	scr_increment_culture(30);
 }
 
 function scr_dance_prep_option_2()
 {
 	scr_reset_outcomes();
-	scr_increment_culture(-3);
+	scr_increment_culture(-20);
 }

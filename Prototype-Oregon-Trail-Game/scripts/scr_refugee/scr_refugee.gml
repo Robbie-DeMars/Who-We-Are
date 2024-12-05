@@ -4,11 +4,12 @@ function scr_refugee_option_1()
 {
 	scr_reset_outcomes();
 	scr_add_human();
-	scr_increment_culture(-1);
+	scr_increment_culture(-10);
 }
 
 function scr_refugee_option_2()
 {
 	scr_reset_outcomes();
 	scr_increment_culture(3);
+	scr_increment_aggression(1);
 }

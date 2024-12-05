@@ -11,6 +11,7 @@
 	"Brennan Castro\n\n" +
 	"Assets\n\n" +
 	"Button click by Dgobe aquired through freesound\n" + 
+	"Explosion by InspectorJ\n" +
 	"Soundfont by Shan\n\n" +
 	"Images Sourced From\n\n" +
 	"Necia P Seamons\n" +

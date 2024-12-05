@@ -2,8 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_add_practice_1_benefits()
 {
+	
 	state = instance_nearest(0, 0, obj_tribe_state);
 	state.ritual_hunt_culture_mod += 1;
+	
+	
+	//This adds a description of the tradition benefits to the modifier list
+	traditions = instance_nearest(0, 0, obj_cultural_practices);
+	description = "Because of your tradition of " + traditions.practice_1 + " you gain one culture from ritual hunting";
+	scr_add_modifier(description, "tradition1");
 }
 
 function scr_remove_pratice_1_benefits()
@@ -33,6 +40,11 @@ function scr_add_practice_2_benefits()
 		spr_sundance
 	)
 	array_push(dilemmas.common_dilemmas, global.bonus_dilemma);
+	
+	//This adds a description of the tradition benefits to the modifier list
+	traditions = instance_nearest(0, 0, obj_cultural_practices);
+	description = "Because of your tradition of " + traditions.practice_2 + " you have a chance of getting a beneficial dilemmas";
+	scr_add_modifier(description, "tradition2");
 }
 
 function scr_remove_practice_2_benefits()
@@ -45,6 +57,11 @@ function scr_add_practice_3_benefits()
 	state = instance_nearest(0, 0, obj_tribe_state);
 	state.trade_mod += 2;
 	state.assimilate_aggression_mod -= 1;
+	
+	//This adds a description of the tradition benefits to the modifier list
+	traditions = instance_nearest(0, 0, obj_cultural_practices);
+	description = "Because of your tradition of " + traditions.practice_3 + " you gain more food from trading and reduce aggression further when assimilating";
+	scr_add_modifier(description, "tradition1");
 }
 
 function scr_remove_practice_3_benefits()

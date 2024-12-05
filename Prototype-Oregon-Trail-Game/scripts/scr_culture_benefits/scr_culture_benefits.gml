@@ -17,6 +17,7 @@ function scr_remove_pratice_1_benefits()
 {
 	state = instance_nearest(0, 0, obj_tribe_state);
 	state.ritual_hunt_food_mod -= 3;
+	scr_remove_modifier("tradition1")
 }
 
 function scr_add_practice_2_benefits()
@@ -50,6 +51,7 @@ function scr_add_practice_2_benefits()
 function scr_remove_practice_2_benefits()
 {
 	scr_remove_dilemma(global.bonus_dilemma);
+	scr_remove_modifier("tradition2")
 }
 
 function scr_add_practice_3_benefits()
@@ -61,7 +63,7 @@ function scr_add_practice_3_benefits()
 	//This adds a description of the tradition benefits to the modifier list
 	traditions = instance_nearest(0, 0, obj_cultural_practices);
 	description = "Because of your tradition of " + traditions.practice_3 + " you gain more food from trading and reduce aggression further when assimilating";
-	scr_add_modifier(description, "tradition1");
+	scr_add_modifier(description, "tradition3");
 }
 
 function scr_remove_practice_3_benefits()
@@ -69,4 +71,5 @@ function scr_remove_practice_3_benefits()
 	state = instance_nearest(0, 0, obj_tribe_state);
 	state.trade_mod -= 2;
 	state.assimilate_aggression_mod += 1;
+	scr_remove_modifier("tradition3")
 }

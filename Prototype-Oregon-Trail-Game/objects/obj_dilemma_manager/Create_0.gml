@@ -83,7 +83,8 @@ colonial_dilemmas =
 		["Yes, this is what we need right now.",
 		"No, we can not afford to anger the government."],
 		[
-		scr_trail_o_tears
+		scr_ghost_dance_option_1,
+		scr_ghost_dance_option_2
 		],
 		true,
 		"Throughout 1890, the U.S. Government was growing increasingly worried about the Ghost Dance spiritual movement at Pine Ridge Indian Reservation. Many Sioux there believed that if they performed the Ghost Dance, the gods would “create the world anew” and destroy non-believers. Reservation police tried to arrest Sitting Bull, famous chief of the Sioux people on December 15, 1890. Under the assumption that he himself was a Ghost Dancer, reservation police killed Sitting Bull in the process of arresting him.",

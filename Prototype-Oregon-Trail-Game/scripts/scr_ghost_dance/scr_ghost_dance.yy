@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ghost_dance",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ghost_dance",
+  "parent":{
+    "name":"Colonial",
+    "path":"folders/Scripts/Dilemmas/Colonial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

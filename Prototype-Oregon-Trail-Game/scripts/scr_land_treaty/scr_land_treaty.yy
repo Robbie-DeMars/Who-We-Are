@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_land_treaty",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_land_treaty",
+  "parent":{
+    "name":"Colonial",
+    "path":"folders/Scripts/Dilemmas/Colonial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

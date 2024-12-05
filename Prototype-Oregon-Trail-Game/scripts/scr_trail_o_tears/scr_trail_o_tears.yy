@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_trail_o_tears",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_trail_o_tears",
+  "parent":{
+    "name":"Colonial",
+    "path":"folders/Scripts/Dilemmas/Colonial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

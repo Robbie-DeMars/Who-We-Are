@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_schools",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_schools",
+  "parent":{
+    "name":"Normal",
+    "path":"folders/Scripts/Dilemmas/Normal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

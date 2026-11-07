@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_lose_game",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_lose_game",
+  "parent":{
+    "name":"Progress",
+    "path":"folders/Scripts/Progress.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

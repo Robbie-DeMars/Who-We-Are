@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_test_dilemma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_test_dilemma",
+  "parent":{
+    "name":"Other",
+    "path":"folders/Scripts/Dilemmas/Other.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

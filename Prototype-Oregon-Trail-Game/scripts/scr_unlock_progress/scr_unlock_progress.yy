@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_unlock_progress",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_unlock_progress",
+  "parent":{
+    "name":"Progress",
+    "path":"folders/Scripts/Progress.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

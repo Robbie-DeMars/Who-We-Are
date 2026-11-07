@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_move_game_forward",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_move_game_forward",
+  "parent":{
+    "name":"Progress",
+    "path":"folders/Scripts/Progress.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_remove_dilemma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_remove_dilemma",
+  "parent":{
+    "name":"Dilemmas",
+    "path":"folders/Scripts/Dilemmas.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

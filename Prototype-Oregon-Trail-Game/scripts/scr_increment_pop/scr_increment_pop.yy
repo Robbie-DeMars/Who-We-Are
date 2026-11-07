@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_increment_pop",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_increment_pop",
+  "parent":{
+    "name":"Resources",
+    "path":"folders/Scripts/Resources.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

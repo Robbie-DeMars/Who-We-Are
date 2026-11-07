@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_raided",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_raided",
+  "parent":{
+    "name":"Colonial",
+    "path":"folders/Scripts/Dilemmas/Colonial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
